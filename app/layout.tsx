@@ -10,7 +10,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "Y-Axis | Navigate through Long AI/LLM Chats",
-  description: "A browser extension to navigate through long AI/LLM chats with ease.",
+  description: "A browser extension to navigate through long AI/LLM chats easily.",
 };
 
 export default function RootLayout({
