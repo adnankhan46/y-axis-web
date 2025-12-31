@@ -9,9 +9,9 @@ export default function Hero() {
         {/* Background decoration */}
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-[600px] bg-radial-[circle_at_center_top] from-ai-accent/20 via-transparent to-transparent opacity-50 blur-3xl -z-10" />
         
-        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 border border-white/10 text-xs font-medium text-ai-accent mb-8 animate-in fade-in slide-in-from-bottom-4 duration-700">
+        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-lg bg-white/5 border border-white/10 text-xs font-medium text-ai-accent mb-4 animate-in fade-in slide-in-from-bottom-4 duration-700">
           <span className="relative flex h-2 w-2">
-            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-ai-accent opacity-75"></span>
+            <span className="absolute inline-flex h-full w-full rounded-full bg-ai-accent opacity-75"></span>
             <span className="relative inline-flex rounded-full h-2 w-2 bg-ai-accent"></span>
           </span>
           Available for Chromium Browsers
@@ -28,13 +28,13 @@ export default function Hero() {
         </p>
 
         <div  id="demo" className="flex flex-col sm:flex-row items-center gap-4 animate-in fade-in slide-in-from-bottom-8 duration-700 delay-300">
-          <button className="group relative px-8 py-4 cursor-pointer bg-ai-accent text-white rounded-full font-semibold text-lg hover:shadow-2xl hover:shadow-ai-accent/30 transition-all hover:-translate-y-1">
+          <button className="group relative px-8 py-4 cursor-pointer bg-ai-accent text-white rounded-full font-semibold text-lg">
             <span className="flex items-center gap-2">
              <Link href={chromeWebStoreLink} target="_blank" rel="noopener noreferrer">Add to Chrome</Link> <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </span>
           </button>
-          <button className="px-8 py-4 cursor-pointer bg-white/5 border border-white/10 text-white rounded-full font-medium hover:bg-white/10 transition-all">
-            <Link href="#demo">View Demo</Link>
+          <button className="px-8 py-4 cursor-pointer bg-white/5 border border-white/10 text-white rounded-lg font-medium hover:bg-white/10 transition-all">
+            <Link href="https://cal.com/adnan-khan-cy6kmb/2min" target="_blank" rel="noopener noreferrer">Schedule a Setup Meeting</Link>
           </button>
         </div>
 

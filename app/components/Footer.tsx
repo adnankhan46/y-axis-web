@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { Github } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -11,7 +10,6 @@ export default function Footer() {
           <Link href="/help" className="hover:text-ai-accent transition-colors">Help</Link>
           <Link href="#open-source" className="hover:text-ai-accent transition-colors">Open Source</Link>
           <a href="https://github.com/adnankhan46/y-axis" target="_blank" rel="noopener noreferrer" className="hover:text-ai-accent transition-colors flex items-center gap-1.5">
-            <Github className="w-4 h-4" />
             GitHub
           </a>
         </div>
