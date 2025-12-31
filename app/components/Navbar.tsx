@@ -12,7 +12,7 @@ export default function Navbar() {
         </Link>
         
         <div className="hidden md:flex items-center gap-8 text-sm font-medium text-ai-text-muted">
-          <Link href="#demo" className="hover:text-ai-accent transition-colors">Demo</Link>
+          <Link href="/#demo" className="hover:text-ai-accent transition-colors">Demo</Link>
           <Link href="/help" className="hover:text-ai-accent transition-colors">Help</Link>
           <Link href="/#open-source" className="hover:text-ai-accent transition-colors">Open Source</Link>
         </div>
