@@ -16,7 +16,7 @@ export default function Footer() {
 
         {/* Copyright */}
         <div className="text-center text-ai-text-muted text-xs mb-12">
-          <p>© 2025 Y-Axis.</p>
+          <p>© 2026 Y-Axis.</p>
         </div>
 
         {/* Giant Y-Axis Text */}
