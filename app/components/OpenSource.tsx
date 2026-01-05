@@ -36,7 +36,7 @@ export default function OpenSource() {
           >
             <div className="flex items-start justify-between mb-6">
               <div className="flex items-center gap-4">
-                <div className="w-14 h-14 rounded-xl border border-white/10 flex items-center justify-center group-hover:bg-ai-accent/20 transition-colors">
+                <div className="w-14 h-14 rounded-xl border border-white/10 flex items-center justify-center transition-colors">
                   <Github className="w-7 h-7 text-white" />
                 </div>
                 <div>
@@ -50,7 +50,7 @@ export default function OpenSource() {
             </div>
             
             <p className="text-ai-text-muted mb-6 text-sm md:text-lg">
-You can be a part of this journey by helping us improve CollabGPT for thousands of people around the world.            </p>
+You can be a part of this journey by helping us improve Y-Axis for thousands of people around the world.            </p>
             
             <div className="flex items-center gap-6 text-sm">
               <div className="flex items-center gap-2 text-ai-text-muted hover:text-yellow-400 transition-colors">
