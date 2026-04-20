@@ -9,6 +9,7 @@ export default function Footer() {
           <Link href="#demo" className="hover:text-ai-accent transition-colors">Demo</Link>
           <Link href="/help" className="hover:text-ai-accent transition-colors">Help</Link>
           <Link href="#open-source" className="hover:text-ai-accent transition-colors">Open Source</Link>
+          <Link href="/privacy-policy" className="hover:text-ai-accent transition-colors">Privacy Policy</Link>
           <a href="https://github.com/adnankhan46/y-axis" target="_blank" rel="noopener noreferrer" className="hover:text-ai-accent transition-colors flex items-center gap-1.5">
             GitHub
           </a>
