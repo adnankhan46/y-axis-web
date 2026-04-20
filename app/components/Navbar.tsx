@@ -1,6 +1,7 @@
 import { Github, Download } from "lucide-react";
 import Link from "next/link";
 import { chromeWebStoreLink } from "@/utils";
+import Image from "next/image";
 
 export default function Navbar() {
   return (
@@ -18,8 +19,9 @@ export default function Navbar() {
         </div>
 
         <button className="hidden sm:flex bg-ai-accent hover:bg-ai-accent/90 text-white text-sm font-medium px-5 py-2 rounded-xl transition-all hover:scale-105 active:scale-95 items-center gap-2 ">
-          <Download size={16} />
-          <Link href={chromeWebStoreLink} target="_blank" rel="noopener noreferrer" className=" transition-colors">Add to Chrome in 2 mins</Link>
+          <Link href={chromeWebStoreLink} target="_blank" rel="noopener noreferrer" className=" transition-colors">
+
+          Add to Chrome in 2 minutes</Link>
         </button>
         <button className="sm:hidden flex bg-ai-accent hover:bg-ai-accent/90 text-white text-sm font-medium px-5 py-2 rounded-xl transition-all hover:scale-105 active:scale-95 items-center gap-2">
           <Download size={16} />

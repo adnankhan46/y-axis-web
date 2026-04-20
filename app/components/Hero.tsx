@@ -44,6 +44,8 @@ export default function Hero() {
         >
           <button className="group relative px-8 py-4 cursor-pointer bg-ai-accent text-white rounded-full font-semibold text-lg">
             <span className="flex items-center gap-2">
+                <       Image src="/images/chrome-icon.png" width={30} height={30} alt="Chrome"/>
+
               <Link
                 href={chromeWebStoreLink}
                 target="_blank"
