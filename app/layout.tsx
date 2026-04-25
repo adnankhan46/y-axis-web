@@ -21,6 +21,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <script defer src="https://cloud.umami.is/script.js" data-website-id="5725d3ea-bff4-4f67-81af-a27a471fe346"></script>
+      </head>
       <body className={`${inter.variable} antialiased bg-black text-white min-h-screen selection:bg-ai-accent/30 selection:text-ai-accent`}>
         {children}
         <Footer />

@@ -1,1 +1,1 @@
-export const chromeWebStoreLink = "https://chromewebstore.google.com/detail/"
+export const chromeWebStoreLink = "https://chromewebstore.google.com/detail/mmnhdknijdhpihgeflhnkaccjpcjjajo?utm_source=item-share-cb"
