@@ -12,6 +12,29 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Y-Axis | Navigate through Long AI/LLM Chats",
   description: "A browser extension to navigate through long AI/LLM chats easily.",
+
+  openGraph: {
+    title: "Y-Axis | Navigate through Long AI/LLM Chats",
+    description: "A browser extension to navigate through long AI/LLM chats easily.",
+    url: "https://yaxis.vercel.app",
+    siteName: "Y-Axis",
+    images: [
+      {
+        url: "https://yaxis.vercel.app/socials/yaxis-thumbnail.png",
+        width: 1200,
+        height: 630,
+        alt: "Y-Axis Preview",
+      },
+    ],
+    type: "website",
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Y-Axis | Navigate through Long AI/LLM Chats",
+    description: "A browser extension to navigate through long AI/LLM chats easily.",
+    images: ["https://yaxis.vercel.app/socials/yaxis-thumbnail.png"],
+  },
 };
 
 export default function RootLayout({
