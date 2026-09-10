@@ -9,7 +9,7 @@ const faqs = [
   },
   {
     question: "Which AI platforms are supported?",
-    answer: "Y-Axis currently supports ChatGPT, Claude, and Google Gemini. We're actively working on adding support for more platforms. The sidebar automatically activates when you visit any of these supported sites.",
+    answer: "Y-Axis currently supports ChatGPT, Claude, Google Gemini and NotebookLm. We're actively working on adding support for more platforms. The sidebar automatically activates when you visit any of these supported sites.",
   },
   {
     question: "How do I open the sidebar?",
@@ -97,7 +97,7 @@ export default function HelpPage() {
                 </div>
                 <div>
                   <h3 className="text-lg font-medium text-white mb-1">Open an AI Chat</h3>
-                  <p className="text-ai-text-muted">Navigate to ChatGPT, Claude, or Gemini. The Y-Axis sidebar will appear automatically.</p>
+                  <p className="text-ai-text-muted">Navigate to ChatGPT, Claude Gemini or NotebookLM. The Y-Axis sidebar will appear automatically.</p>
                 </div>
               </div>
               

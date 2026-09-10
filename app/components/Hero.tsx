@@ -1,10 +1,11 @@
 "use client";
 
 import { chromeWebStoreLink } from "@/utils";
-import { ArrowRight, Play, Pause, Volume2, VolumeX } from "lucide-react";
+import { ArrowRight, Play, Pause, Volume2, VolumeX, ArrowBigUpDashIcon, ArrowUpRightSquare, ArrowUpRight, ArrowUpRightSquareIcon } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { useRef, useState } from "react";
+import SidebarPreview from "./SidebarPreview";
 
 export default function Hero() {
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -36,7 +37,7 @@ export default function Hero() {
       <section
         className="relative pt-16 pb-24 min-h-screen flex flex-col items-center justify-center text-center px-4 overflow-visible"
         style={{
-          backgroundImage: "url('/assets/background-1.jpg')",
+          backgroundImage: "url('/assets/bg-1.jpeg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -48,7 +49,7 @@ export default function Hero() {
             <span className="absolute inline-flex h-full w-full rounded-full bg-ai-accent opacity-75"></span>
             <span className="relative inline-flex rounded-full h-2 w-2 bg-ai-accent"></span>
           </span>
-          Available for Chromium Browsers
+          Now Supports NotebookLM <ArrowUpRightSquareIcon className="h-3.5 w-3.5"/>
         </div>
 
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-medium tracking-tight mb-6 max-w-4xl mx-auto animate-in font-sans fade-in slide-in-from-bottom-8 duration-700 delay-100 text-white/90">
@@ -76,8 +77,10 @@ export default function Hero() {
             <Link href="/help">How to Download</Link>
           </button>
         </div>
+       
+        <SidebarPreview />
 
-        <Image
+        {/* <Image
           src="/assets/sidebar-1.png"
           alt="Y-Axis Sidebar Preview"
           width={320}
@@ -85,7 +88,8 @@ export default function Hero() {
           quality={100}
           priority
           className="hidden lg:block absolute right-4 xl:right-6 top-1/2 -translate-y-1/2 rounded-2xl shadow-2xl shadow-black/50"
-        />
+        /> */}
+
       </section>
 
       <section className="relative -mt-32 pb-24 px-4">
