@@ -4,10 +4,11 @@ Navigate through your **long** AI chats.
 Chat navigation that saves your thumb and your time.
 
 <img width="1280" height="720" alt="y-axis-thumbnail" src="https://github.com/user-attachments/assets/66fd9186-a73b-48c0-badf-807cfa5159db" />
-
+<br />
 <p align="center">
-  <a href="#" target="_blank"><img src="" alt="producthunt-img" style="width: 250px; height: 54px;" width="250" height="54" /></a>
-  <a href="#" target="_blank"><img src="" alt="peerlist-img" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+  <a href="https://www.producthunt.com/products/y-axis?launch=y-axis" target="_blank">
+    <img src="https://img.shields.io/badge/producthunt-DA552F?style=for-the-badge&logo=producthunt&logoColor=white" alt="producthunt-img" width="120" height="30" /></a>
+ 
 </p>
 <p align="center">
   <a href="https://chromewebstore.google.com/detail/y-axis-navigate-through-l/mmnhdknijdhpihgeflhnkaccjpcjjajo?authuser=0&hl=en-GB">
@@ -26,28 +27,24 @@ scrolling endlessly to find one.
 on top of LLM chats, allowing instant jumps across long conversations.
 Saves a lot of time finding that one perfect prompt.
 
+  <h4>Demo</h4>
 <p align="center">
-  <a href="#" target="_blank"><img src="" alt="yt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+  <a href="https://www.youtube.com/watch?v=h9DI0FIvNRY" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="yt" width="100" height="30" /></a>
 </p>
 
 ## Installation
 #### 1. Web Stores (Recommended)
-* **Chrome / Brave / Edge:** [Click Here]([yaxis.vercel.app](https://chromewebstore.google.com/detail/y-axis-navigate-through-l/mmnhdknijdhpihgeflhnkaccjpcjjajo?authuser=0&hl=en-GB))
+* **Chrome / Brave / Edge:** [Click Here](https://chromewebstore.google.com/detail/y-axis-navigate-through-l/mmnhdknijdhpihgeflhnkaccjpcjjajo?authuser=0&hl=en-GB)
 * **Firefox:** *(Coming Soon)*
 
 ## Shortcuts
-
-| Shortcut | Action |
-|----------|--------|
-| `Cmd/Ctrl` + or `;` | Toggle Panel |
-| `↑` / `↓` or `j` / `k` | Navigate Down/Up |
-| `←` / `→` | Toggle View (Only Prompts/View All) |
-| `Enter` | Jump to Message |
-| `Esc` | Close Panel |
-
+<img width="370" height="382" alt="y-axis-cmd" src="https://github.com/user-attachments/assets/1ef16e87-826f-4e20-8977-e52a54f1785e" />
 
 ## Credits
 > Y-axis dont own any of the Icons and Images used, credit goes to the providers.
+
+**Motion Design Intro Video by:**
+[Kanishk Pandey](https://www.linkedin.com/in/kanishk-pandey-63117129a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
 
 **Icon Provider:**
 ```
