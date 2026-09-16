@@ -1,5 +1,14 @@
 import Link from "next/link";
 
+export function DirectoryBadge() {
+  return (
+    <a href="https://www.tinyshelf.co/?ref=yaxis.vercel.app" title="Featured on TinyShelf">
+      <img src="https://www.tinyshelf.co/badge/tinyshelf-badge-dark-f4d1216a.svg"
+           alt="Featured on TinyShelf" width={216} height={64} />
+    </a>
+  );
+}
+
 export default function Footer() {
   return (
     <footer className="relative pt-16 pb-8 px-4 border-t border-white/5">
@@ -13,6 +22,10 @@ export default function Footer() {
           <a href="https://github.com/adnankhan46/y-axis" target="_blank" rel="noopener noreferrer" className="hover:text-ai-accent transition-colors flex items-center gap-1.5">
             GitHub
           </a>
+        </div>
+
+        <div className="flex justify-center mb-12">
+          <DirectoryBadge />
         </div>
 
         {/* Copyright */}
